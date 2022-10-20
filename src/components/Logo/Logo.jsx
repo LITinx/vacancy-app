@@ -1,7 +1,9 @@
-export const Logo = ({ children, size = 24 }) => {
+export const Logo = ({ children, className }) => {
 	return (
-		<div>
-			<h2 style={{ fontSize: size }}>{children}</h2>
+		<div className={'logo-font ' + className}>
+			<h2 className='lowercase font-bold text-base sm:text-lg md:text-xl'>
+				{children}
+			</h2>
 		</div>
 	)
 }

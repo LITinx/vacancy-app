@@ -7,6 +7,8 @@ function App() {
 			<Header />
 			<Routes>
 				<Route path='/' element={<div>Hello</div>} />
+				<Route path='/picks' element={<div>Hello</div>} />
+				<Route path='/employer' element={<div>Hello</div>} />
 			</Routes>
 		</div>
 	)

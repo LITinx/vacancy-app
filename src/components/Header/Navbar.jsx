@@ -3,7 +3,7 @@ import { Links } from './Links'
 
 export const Navbar = () => {
 	return (
-		<nav>
+		<nav className='flex justify-between items-center'>
 			<Links />
 			<Auth />
 		</nav>
