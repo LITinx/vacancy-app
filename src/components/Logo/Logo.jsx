@@ -1,9 +1,9 @@
+import { Link } from 'react-router-dom'
+
 export const Logo = ({ children, className }) => {
 	return (
-		<div className={'logo-font ' + className}>
-			<h2 className='lowercase font-bold text-base sm:text-lg md:text-xl'>
-				{children}
-			</h2>
-		</div>
+		<Link to='/' className={'logo-font ' + className}>
+			<h2 className='lowercase font-bold text-lg md:text-xl'>{children}</h2>
+		</Link>
 	)
 }

@@ -21,3 +21,7 @@ code {
 .logo-font {
   font-family: "Fredoka One";
 }
+
+.swiper-pagination-bullet-active {
+  @apply bg-slate-800;
+}
