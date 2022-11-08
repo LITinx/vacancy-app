@@ -1,4 +1,4 @@
-export const PicksSliderItem = () => {
+export const PicksItem = () => {
 	return (
 		<div className='shadow-md rounded-xl flex justify-center items-center'>
 			<div className='p-2 flex justify-center items-center flex-col'>
@@ -10,7 +10,7 @@ export const PicksSliderItem = () => {
 					/>
 				</div>
 				<div className='pt-2 ml-2'>
-					<h5 className='text-base font-bold'>Вакансии в Европе</h5>
+					<h5 className='text-sm md:text-base font-bold'>Вакансии в Европе</h5>
 				</div>
 			</div>
 		</div>

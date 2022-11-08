@@ -1,6 +1,6 @@
 import 'swiper/css'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { PicksSliderItem } from './PicksSliderItem'
+import { PicksItem } from './PicksItem'
 
 export const MainPicks = () => {
 	return (
@@ -28,31 +28,31 @@ export const MainPicks = () => {
 				}}
 			>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 				<SwiperSlide>
-					<PicksSliderItem />
+					<PicksItem />
 				</SwiperSlide>
 			</Swiper>
 		</div>

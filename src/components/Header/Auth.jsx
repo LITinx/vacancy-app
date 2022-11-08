@@ -1,6 +1,8 @@
-export const Auth = () => {
+import classNames from 'classnames'
+
+export const Auth = ({ className }) => {
 	return (
-		<div className='md:flex hidden justify-between items-center space-x-4 '>
+		<div className={className}>
 			<button className='text-xs bg-zinc-200 px-3 py-2 rounded-md hover:bg-zinc-300 transition-colors ease-in-out duration-200 '>
 				Создать аккаунт
 			</button>

@@ -4,7 +4,7 @@ import { Vacancy } from './Vacancy/Vacancy'
 
 export const MainPage = () => {
 	return (
-		<main className='container mx-auto px-8'>
+		<main className='px-8'>
 			<section>
 				<NewsSection />
 			</section>
